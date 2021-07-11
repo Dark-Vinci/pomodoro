@@ -1,0 +1,66 @@
+.container {
+  z-index: 500;
+  width: 100%;
+  padding: 0px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container div.but {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container div.but button {
+  margin: 0px 5px;
+}
+
+.container p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container p.out {
+  color: blue;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  .container div.but {
+    width: 60%;
+    margin: 3px;
+  }
+  .container div.but button {
+    margin: 0px 6px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  .container p {
+    margin: 3px;
+    font-size: 20px;
+  }
+  .container p.out {
+    font-size: 28px;
+  }
+}
+/*# sourceMappingURL=session.module.css.map */
